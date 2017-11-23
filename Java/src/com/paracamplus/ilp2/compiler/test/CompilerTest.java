@@ -39,10 +39,10 @@ public class CompilerTest extends com.paracamplus.ilp1.compiler.test.CompilerTes
     
     public CompilerTest(final File file) {
     	super(file);
-    }    
+    }
 
     @Override
-    public void configureRunner(CompilerRunner run) throws CompilationException {
+	public void configureRunner(CompilerRunner run) throws CompilationException {
     	// configuration du parseur
         IASTfactory factory = new ASTfactory();
         IXMLParser xMLParser = new XMLParser(factory);

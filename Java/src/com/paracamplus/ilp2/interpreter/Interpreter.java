@@ -119,6 +119,4 @@ implements IASTvisitor<Object, ILexicalEnvironment, EvaluationException> {
         }
         return Boolean.FALSE;
     }
-
-
 }

@@ -1,4 +1,4 @@
-prefix=/home/ptalbot/repositories/research/lectures/dlp/ILP-UPMC/C/gc-7.2/libatomic_ops-install
+prefix=/users/Etu1/3300901/workspace/ILP-UPMC/C/gc-7.2/libatomic_ops-install
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

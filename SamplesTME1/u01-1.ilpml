@@ -1,0 +1,10 @@
+let a = 2 in
+let b = 4 in
+let c = 2 in
+
+let delta = b*b-4*a*c in
+if delta == 0 
+then print("discriminant nul: une seule racine") 
+else if delta < 0 
+then print("discriminant negatif: aucune racine") 
+else print("discriminant positif: deux racines")

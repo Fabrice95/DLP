@@ -1,0 +1,6 @@
+(x=0;
+while x < 20 do
+	((if x < 10 then x = x + 1
+	else (x=20; continue)) ;)
+);
+print(x)
